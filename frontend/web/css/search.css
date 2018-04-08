@@ -1,0 +1,133 @@
+/*搜索页面*/
+*{
+	font-family: "微软雅黑",arial;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+body{
+	font-size: 2%;
+}
+a{
+	color: #333;
+	display: block;
+	text-decoration: none;
+}
+html{
+	position: relative;
+	background: #eeeeee;
+}
+header{
+	height: 50px;
+	position: relative;
+	top: 0;
+	width: 100%;
+	
+	background:#F7B52B;
+}
+#searchBox{
+	position: absolute;
+	left: 10px;
+	right: 60px;
+	float: left;
+	margin-top: 10px;
+}
+#searchInner img{
+	position: absolute;
+	right: 7px;
+	margin: 3px;
+	vertical-align: middle;
+}
+#searchInner input{
+	color: #333;
+	font-family: "微软雅黑" arial;
+	font-size: 16px;
+	width: 100%;
+	border: 1px #F7B52B solid;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	outline: none;
+	height: 30px;
+	text-indent: 10px;
+}
+#return{
+	height: 100%;
+	float: right;
+	margin: 0 10px;
+	
+}
+#return a{
+	line-height: 50px;
+	height: 100%;
+	font-size: 20px;
+	font-weight: 200;
+	color: #FFFFFF;
+}
+/*筛选条*/
+.filtrateBar{
+	background: #FFFFFF;
+	overflow: hidden;
+	border-bottom: 1px #ddd solid;
+}
+.filtrateBar li{
+	width: 25%;
+	float: left;
+	padding: 10px 0;
+	
+}
+.filtrateBar li a{
+	font-size: 14px;
+	text-align: center;
+	border-right: 1px #ddd solid;
+	color: #aaa;
+}
+.filtrateBar li a img{
+	width: 14px;
+	vertical-align: middle;
+	margin-left: 4px;
+}
+.filtrateBar li a.here {
+	color: #333;
+}
+.filtrateBar li:last-child a{
+	border-right: 0px;
+}
+/*筛选条*/
+
+/*搜索页面*/
+#container{
+	width: 100%;
+	max-width: 780px;
+	margin: 0 auto;
+}
+#guessYouLike{
+	padding: 20px 10px;
+	background: #FFFFFF;
+}
+#guessYouLike h2{
+	font-weight: 500;
+	font-size: 18px;
+	color: #A8A8A8;
+	text-align: center;
+}
+#guessYouLike table{
+	width: 100%;
+}
+#guessYouLike table td{
+	width: 50%;
+	padding: 20px 20px;
+}
+#guessYouLike table td img{
+	width: 100%;
+}
+#guessYouLike table td p{
+	font-size: 12px;
+	font-weight: 100;
+	color: #333333;
+}
+#guessYouLike table td p span.price{font-weight: bold;}
+#guessYouLike table td p span.nowPrice{font-weight: bold;color: #E62E00;}
+#guessYouLike table td p span.prePrice{color: #A8A8A8;text-decoration: line-through; margin-left: 5px;}
+/*搜索结果*/
+/*搜索结果*/
